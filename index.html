@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(to right, #00c6ff, #a044ff);
+        }
+
+        .container {
+            background: #fff;
+            padding: 30px;
+            width: 320px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-bottom: 1px solid #ccc;
+            outline: none;
+        }
+
+        .forgot {
+            text-align: right;
+            font-size: 12px;
+            margin-bottom: 15px;
+        }
+
+        .forgot a {
+            text-decoration: none;
+            color: gray;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 20px;
+            background: linear-gradient(to right, #00c6ff, #a044ff);
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .social {
+            margin: 20px 0;
+        }
+
+        .social i {
+            margin: 0 10px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .signup {
+            font-size: 12px;
+        }
+
+        .signup a {
+            text-decoration: none;
+            color: #a044ff;
+            font-weight: bold;
+        }
+    </style>
+
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/4a3b1f73a2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<div class="container">
+    <h2>Login</h2>
+
+    <input type="text" placeholder="Username">
+    <input type="password" placeholder="Password">
+
+    <div class="forgot">
+        <a href="#">Forgot password?</a>
+    </div>
+
+    <button>LOGIN</button>
+
+    <div class="social">
+        <p>Or Sign Up Using</p>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-google"></i>
+    </div>
+
+    <div class="signup">
+        Or Sign Up Using <br>
+        <a href="#">SIGN UP</a>
+    </div>
+</div>
+
+</body>
+</html>
